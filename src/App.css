@@ -1,0 +1,42 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.converter {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin-top:15px;
+}
+
+select{
+  margin-top:10px;
+  padding:8px;
+}
+
+button{
+  margin-top:15px;
+  padding:10px 20px;
+  border:none;
+  border-radius:10px;
+  background:#667eea;
+  color:white;
+  cursor:pointer;
+}
+
+.result{
+  margin-top:15px;
+  font-weight:bold;
+}
